@@ -6,7 +6,7 @@
 .app {
     overflow: hidden;
 }
-body {
+.app {
     background: url('../img/BackgroundDecor.png') top center/cover no-repeat;
     background-attachment: fixed;
 }
@@ -88,7 +88,7 @@ body {
     display: none;
 }
 /* slider */
-.slider {
+.app .slider {
     width: 100%;
     height: auto;
     position: relative;
@@ -203,6 +203,7 @@ body {
     border-style: solid;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+    font-family: "Circular Std";
 }
 .input-email:hover {
     border-color: var(--primary-color);
@@ -212,7 +213,7 @@ body {
 }
 
 /* container */
-.content{
+.app .content{
     margin-top: 103px;
 }
 .content__1 {
