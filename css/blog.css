@@ -83,12 +83,17 @@
     line-height: 25px;
     color: var(--text-blog-color);
 }
-.content-main .content-main__img img{
-    /* max-width: 730px;  l-9 */
-    max-width: 645px;
-    object-fit: cover;
-    height: auto;
+.mrb-content-blog {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
 }
+.content-main .content-main__img img{
+    object-fit: cover;
+    width: 100%;
+    min-height: 100%;
+}
+
 .content-main .content-main__paragraph {
     font-weight: 450;
     font-size: 17px;
@@ -254,3 +259,7 @@
 .category__btn {
     margin: 5px;
 }
+.blog .btn-content-main{
+    padding: 20px 102px;
+}
+
