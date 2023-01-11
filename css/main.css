@@ -1,5 +1,4 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -127,6 +126,7 @@
     line-height: 60px;
     color: var(--text-color);
     margin-bottom: 21px;
+    padding-right: 20px;
 }
 .slider__paragraph-header span {
     color: var(--primary-color);
